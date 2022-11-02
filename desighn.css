@@ -1,0 +1,50 @@
+.box{
+    box-sizing: border-box;
+    width: 336px;
+    height: 236px;
+    position: absolute;
+    left: 408px;
+    top: 232px;
+    border: 1px solid hsl(0, 0%, 77%);
+    border-radius: 10px;
+    justify-content: center;
+}
+.yellow-part{
+width: 336px;
+height: 28px;
+left: 408px;
+margin-top: -80px;
+background: #FFDC40;
+border-radius: 10px;
+}
+.name{
+width: 198px;
+height: 34px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+}
+.text-bar{
+    box-sizing: border-box;
+    justify-content:center ;
+width: 286px;
+height: 40px;
+
+border: 1px solid #C4C4C4;
+border-radius: 10px;
+}
+.action{
+    position: absolute;
+width: 150px;
+height: 42px;
+left: 500px;
+top: 407px;
+
+background: #833AE0;
+border-radius: 71px;
+}
