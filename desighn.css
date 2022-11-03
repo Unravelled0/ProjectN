@@ -53,19 +53,28 @@
     padding: 0px;
     border: 0px;
     border-radius: 71px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .plus-icon{
     width: 42px;
     height: 42px;
-    text-align: center;
+    color: white;
     background: #9953F1;
     border-radius: 71px;
-
-
+    text-indent: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    margin-right: 26px;
 }
 .add-icon{
-    padding-top: 70px;
-    margin-top: 200px;
+    padding-top: 5px;
+    margin-top: 15x;
+    color: white;
+    padding: 1px;
 }
 .sort{
     width: 25px;
