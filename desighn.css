@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 .box{
     box-sizing: border-box;
     width: 336px;
@@ -10,10 +11,8 @@
 }
 .yellow-part{
     justify-content: row;
-    width: 336px;
-    height: 28px;
-    left: 408px;
-    top: 232px;
+    width: 334px;
+    height: 29px;
     border-radius: 10px;
     background: #FFDC40;
     border-bottom-left-radius: 1px;
@@ -24,7 +23,7 @@
     height: 30px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 900px;
     font-size: 26px;
     line-height: 30px;
     text-align: center;
@@ -56,6 +55,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 .plus-icon{
     width: 42px;
