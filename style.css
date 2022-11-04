@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-.box{
+.body{
+    overflow: hidden;
+}
+.wrapper{ 
     box-sizing: border-box;
     width: 336px;
     height: 236px;
     border: 1px solid hsl(0, 0%, 77%);
     border-radius: 10px;
-    margin: 200px 0px 0px 485px;
+    margin: 135px auto;
     align-items: center;
     justify-content: center; 
 }
@@ -18,6 +21,7 @@
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
 }
+
 .name{
     width: 198px;
     height: 30px;
@@ -32,7 +36,17 @@
     text-transform: capitalize;
     color: #000000;
 }
-#newproject input{
+.task-input{
+    height: 52px;
+    position: relative;
+}
+
+.task-input img{
+    position: absolute;
+    top: 50%;
+    transform: translate(275px, -260%);
+}
+.task-input input{
     box-sizing: border-box;
     align-items: center;
     justify-content: center; 
@@ -42,7 +56,19 @@
     margin-top: 10px;
     border: 1px solid #C4C4C4;
     border-radius: 10px;
+    outline: none;
 }
+.task-input input::placeholder{
+    color: #bfbfbf;
+}
+
+
+
+
+
+
+
+
 .action{
     width: 150px;
     height: 42px;
@@ -51,6 +77,8 @@
     background: #833AE0;
     padding: 0px;
     border: 0px;
+    cursor: pointer;
+    font-size: 13px;
     border-radius: 71px;
     display: flex;
     flex-direction: row;
@@ -76,13 +104,45 @@
     color: white;
     padding: 1px;
 }
-.sort{
-    width: 25px;
-    height: 15px;
-    margin-left: 278px;
+
+.task-box{
+    margin: 20px 25px;
 }
-.delete-icon{
-    margin-left: -48px;
-    margin-top: 20px;
-    position: absolute;
+.task-box .task{
+    list-style: none;
+    font-size: 17px;
+    margin-bottom: 18px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
 }
+.task-box .task:last-child{
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.task label{
+    display: flex;
+}
+.task label input{
+    margin-top: 6px;
+    margin-right: 12px;
+}
+.control, li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete :hover{
+    background-color: grey;
+}
+
+.task .delete{
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+
+
+
