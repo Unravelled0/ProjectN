@@ -5,12 +5,13 @@
 .wrapper{ 
     box-sizing: border-box;
     width: 336px;
-    height: 236px;
+    height: auto;
     border: 1px solid hsl(0, 0%, 77%);
     border-radius: 10px;
     margin: 135px auto;
     align-items: center;
     justify-content: center; 
+    text-align: center;
 }
 .yellow-part{
     justify-content: row;
@@ -43,37 +44,57 @@
 
 .task-input img{
     position: absolute;
-    top: 50%;
+    top: 20%;
     transform: translate(275px, -260%);
+    cursor: pointer;
+}
+.task-input img:hover{
+    color: blue;
 }
 .task-input input{
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center; 
     width: 286px;
     height: 40px;
-    margin-left: 25px;
-    margin-top: 10px;
+    outline: none;
+    border: 0;
+
+}
+
+.container{
+    display:inline-block;
+    margin: 0px auto 0px auto;
+    text-align: center;
     border: 1px solid #C4C4C4;
     border-radius: 10px;
-    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+.value_list {
+    overflow-y: auto;
+    max-height: 250px;
+}
+
+/* .delete_icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+} */
+
 .task-input input::placeholder{
     color: #bfbfbf;
 }
-
-
-
-
-
-
-
+.task-input .delete_icon{
+    margin-top: 5px;
+    margin-right: 60px;
+    position: absolute;
+}
 
 .action{
     width: 150px;
     height: 42px;
     margin-left: 80px;
     margin-top: 15px;
+    margin-bottom: 10px;
     background: #833AE0;
     padding: 0px;
     border: 0px;
@@ -84,6 +105,14 @@
     flex-direction: row;
     align-items: center;
     
+}
+
+.delete{
+    width: 30px;
+    height: 30px;
+    background-image: "photos\jpg1.svg";
+    background: red;
+    border: 0px;
 }
 .plus-icon{
     width: 42px;
@@ -132,14 +161,17 @@
     align-items: center;
     justify-content: space-between;
 }
-.delete :hover{
+/* .task-input .delete{
+    margin-right: px;
+}
+.task-input .delete :hover{
     background-color: grey;
 }
 
 .task .delete{
     cursor: pointer;
     position: relative;
-}
+} */
 
 
 
