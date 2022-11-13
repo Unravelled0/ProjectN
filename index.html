@@ -10,29 +10,25 @@
 <body>
     <div class="wrapper">
         <div class="yellow-part"></div>
-        <h1 class="name">To-do List</h1>
         <div class="container">
-            
-            <div class="task-input">
-                <img src="photos\jpg1.svg" alt="sorticon">
-                <input type="text" placeholder="Add text here" >
-                <ul class="task-box"> </ul>
-                <div class="delete_icon"> <img src="photos\img4.svg" alt="delete"></div> 
-            </div>
-            <div class="value_list"> </div>
-        </div>
-        <div class="control">
-            <div class="filter">
-                <span id="all"> </span>
-            </div>
-        </div>
+            <h1 class="name">To-do List</h1>
+            <div class="sort">
+                <button class="sort_icon"></button> <img src="Photos\jpg1.svg" class="arrows">
+                </div>
+            <div class="input">
+                <div class="value_list">
+                    <div class="note">
+                        <input class ="input_place" type="text" placeholder="Add text here" draggable="true" >
+                        <button class="delete"> x </button>
+                    </div>
+                </div>
+        
         <button class="action">
             <div class="plus-icon">+</div>
             <span class="add-icon">Add</span>
         </button>
-        <!-- <ul class="task-box"> </ul> -->
-
-
+            </div>
+        </div>
     </div>
 
 
@@ -43,5 +39,4 @@
 </html> 
 
 
-<!-- <onclick ="deleteTask(${id})"><img class="delete_icon" img src="photos\clear.jpg" alt="delete">  -->
 
