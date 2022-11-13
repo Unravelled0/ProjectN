@@ -20,7 +20,7 @@
 }
 .yellow-part{
     justify-content: row;
-    width: 334px;
+    width: 336px;
     height: 29px;
     border-radius: 10px;
     background: #FFDC40;
@@ -38,7 +38,7 @@
     line-height: 30px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 55px;
+    margin-left: 68px;
     text-transform: capitalize;
     color: #000000;
 }
@@ -56,18 +56,18 @@
 }
 
 .sort_icon{
-    position: relative;
-    width: 50px;
+    position: absolute;
+    width: 48px;
     height: 15px;
-    margin-left: 275px;
+    margin-left: 245px;
     border: none;
     outline: none;
     background-color: white;
  }
  .arrows{
     position: relative;
-    margin-left: 285px;
-     margin-bottom: 5px;
+    margin-left: 250px;
+    margin-bottom: 5px;
  }
 
  .value_list{
@@ -81,7 +81,7 @@
     flex-direction: column;
     border: 1px solid #C4C4C4;
     border-radius: 10px;
-
+    overflow-x: hidden;
 }
 
 .note{
@@ -99,12 +99,13 @@
 }
 
 .delete{
-    align-self:center;
+align-self:center;
 margin-right: 25px;
 width: 20px;
 height: 20px;
 border: 1px solid #C4C4C4;
 border-radius: 71px;
+background-color: white;
 color: lightgrey;
 font-weight: 100;
 text-align: center;
@@ -120,8 +121,8 @@ text-align: center;
 .action{
     width: 150px;
     height: 42px;
-    margin-left: 80px;
-    margin-top: 15px;
+    margin-left: 87px;
+    margin-top: 25px;
     margin-bottom: 10px;
     background: #833AE0;
     padding: 0px;
